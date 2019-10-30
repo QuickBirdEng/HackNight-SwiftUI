@@ -12,8 +12,7 @@ struct PostDetailView: View {
     let post: Post
 
     var body: some View {
-        WebView(htmlString: post.prettyHTML, baseURL: URL(string: "https://quickbirdstudios.com/blog"))
-            .edgesIgnoringSafeArea([.bottom, .top])
+        Text("Hello World!")
     }
 
 }
