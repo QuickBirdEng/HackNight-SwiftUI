@@ -27,6 +27,8 @@ struct LoginView: View {
                         SecureField("Password", text: $password)
                     }
 
+                    // Exercise 1: Add new Toggl element for accepting terms and conditions
+
                     NavigationLink("Submit", destination: BlogListView(posts: DataService().getPosts()))
                         .disabled(username.isEmpty || password.isEmpty)
                 }.navigationBarTitle("Login", displayMode: .inline)

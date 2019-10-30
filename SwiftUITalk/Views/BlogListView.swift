@@ -25,13 +25,14 @@ struct PostCell: View {
     let post: Post
 
     var body: some View {
-        VStack(spacing: 8) {
-            Image(uiImage: post.header)
-                .resizable()
-                .scaledToFit()
-                .frame(minWidth: 0, maxWidth: .infinity)
+        Image(uiImage: post.header)
+            .resizable()
+            .scaledToFit()
 
-        }.padding(.vertical, 16)
+        // Exercise 2: Create a nice looking UI for the cells like shown on the slides
+
+        // Hint 1: Stacks are really helpful to create a UI like this
+        // Hint 2: Use predefined Colors like .primary and .secondary
     }
 
 }
@@ -39,5 +40,6 @@ struct PostCell: View {
 struct BlogListView_Previews: PreviewProvider {
     static var previews: some View {
         BlogListView(posts: DataService().getPosts())
+
     }
 }
