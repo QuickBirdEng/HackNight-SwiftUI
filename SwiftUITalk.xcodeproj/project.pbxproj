@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F6C915F023699C9500C7E4C8 /* DragRectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C915EF23699C9500C7E4C8 /* DragRectangleView.swift */; };
 		F6D5673F234E340500D0417B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D5673E234E340500D0417B /* AppDelegate.swift */; };
 		F6D56741234E340500D0417B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D56740234E340500D0417B /* SceneDelegate.swift */; };
 		F6D56743234E340500D0417B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D56742234E340500D0417B /* LoginView.swift */; };
@@ -22,11 +23,10 @@
 		F6E31D7E234F43D500EA19C4 /* PostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E31D7D234F43D500EA19C4 /* PostDetailView.swift */; };
 		F6E31D82234F4BB000EA19C4 /* Post+Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E31D81234F4BB000EA19C4 /* Post+Decodable.swift */; };
 		F6E31D84234F4BCA00EA19C4 /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E31D83234F4BCA00EA19C4 /* Author.swift */; };
-		F6E31D86234F527B00EA19C4 /* AuthorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E31D85234F527B00EA19C4 /* AuthorView.swift */; };
-		F6E31D88234F58B500EA19C4 /* AuthorsGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E31D87234F58B500EA19C4 /* AuthorsGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F6C915EF23699C9500C7E4C8 /* DragRectangleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragRectangleView.swift; sourceTree = "<group>"; };
 		F6D5673B234E340500D0417B /* SwiftUITalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6D5673E234E340500D0417B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6D56740234E340500D0417B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,8 +44,6 @@
 		F6E31D7D234F43D500EA19C4 /* PostDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailView.swift; sourceTree = "<group>"; };
 		F6E31D81234F4BB000EA19C4 /* Post+Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Post+Decodable.swift"; sourceTree = "<group>"; };
 		F6E31D83234F4BCA00EA19C4 /* Author.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
-		F6E31D85234F527B00EA19C4 /* AuthorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorView.swift; sourceTree = "<group>"; };
-		F6E31D87234F58B500EA19C4 /* AuthorsGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorsGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,9 +106,8 @@
 				F6D56742234E340500D0417B /* LoginView.swift */,
 				F6D56754234F1B9F00D0417B /* BlogListView.swift */,
 				F6E31D7D234F43D500EA19C4 /* PostDetailView.swift */,
-				F6E31D85234F527B00EA19C4 /* AuthorView.swift */,
 				F6E31D7B234F41EA00EA19C4 /* WebView.swift */,
-				F6E31D87234F58B500EA19C4 /* AuthorsGridView.swift */,
+				F6C915EF23699C9500C7E4C8 /* DragRectangleView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -214,11 +211,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6E31D7E234F43D500EA19C4 /* PostDetailView.swift in Sources */,
-				F6E31D88234F58B500EA19C4 /* AuthorsGridView.swift in Sources */,
+				F6C915F023699C9500C7E4C8 /* DragRectangleView.swift in Sources */,
 				F6D56755234F1B9F00D0417B /* BlogListView.swift in Sources */,
 				F6E31D7C234F41EA00EA19C4 /* WebView.swift in Sources */,
 				F6D5675B234F1C4200D0417B /* DataService.swift in Sources */,
-				F6E31D86234F527B00EA19C4 /* AuthorView.swift in Sources */,
 				F6D5673F234E340500D0417B /* AppDelegate.swift in Sources */,
 				F6E31D84234F4BCA00EA19C4 /* Author.swift in Sources */,
 				F6E31D82234F4BB000EA19C4 /* Post+Decodable.swift in Sources */,
